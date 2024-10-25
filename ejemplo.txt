@@ -1,0 +1,54 @@
+
+library(Lahman)
+library("dplyr")
+library("readxl")
+data("Teams")
+
+View(Teams)
+
+
+select
+nrow
+n_distinct
+distinct
+filter
+arrange
+slice
+group by
+summarise
+joins
+summary
+View
+mutate
+
+
+
+
+# 1. cuantos anios diferentes existen en el ds
+
+# 2. cuantos equipos existen en el ds?
+
+# 3. cuantas franquicias existen den el ds?
+
+# 4. cuantos registros no tienen division?
+
+# 5. cual es el equipo que mas juegos disputo?
+
+# 6. Cual es el equipo que menos partidos en casa disputo?
+
+# 7. Cual es el equipo que mas victorias obtuvo?
+
+# 8. cuanto es el promedio de victorias para los equipos?
+
+# 9. Cual es el equipo que mas derrotas obtuvo?
+#10. Cual es el equipo que mas carreras obtuvo?
+
+# 11. Cual es el equipo que mas simples, dobles, triples y hr realizo?
+
+#12. Cual es el equipo que mas strikes tuvo?
+
+#13. Cual es el equipo que mas bases robadas realizo?
+
+#14. cuanto es el promedio de errores por equipo?
+
+#15. cual es el peor equipo para intentar robar base?
